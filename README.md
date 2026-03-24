@@ -1,38 +1,75 @@
-# CompTIA Security Plus Exam Simulator
+# 🛡️ Security+ Practice Tests
 
-## Overview
-The CompTIA Security Plus Exam Simulator is a comprehensive tool designed to help candidates prepare for the CompTIA Security+ certification exam. This simulator provides a realistic testing environment, complete with practice questions, performance metrics, and detailed explanations to enhance the learning experience.
+CompTIA Security+ practice tests and study materials for certification prep.
 
-## Features
-- **Realistic Exam Environment**: Simulates the actual testing conditions of the Security+ exam.
-- **Variety of Questions**: Includes a wide range of topics and question types that reflect the actual exam format.
-- **Instant Feedback**: Provides immediate feedback on performance, allowing candidates to identify areas for improvement.
-- **Detailed Explanations**: Offers comprehensive explanations for each question, helping users understand the concepts behind the correct answers.
-- **Customizable Tests**: Allows users to create custom exams based on specific topics or objectives.
+## 🎯 Features
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/CostaJr007/security-plus-simulado.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd security-plus-simulado
-   ```
-3. Follow the installation instructions provided in the repository to set up the simulator.
+- ✅ 500+ practice questions
+- ✅ Exam-style format
+- ✅ Detailed explanations
+- ✅ Progress tracking
+- ✅ Study guide included
+- ✅ Multiple test modes
 
-## Usage
-To start the simulator, run the following command:
-```bash
-./run_simulator
-```
-Follow the on-screen instructions to select your exam settings and begin practicing.
+## 📋 Requirements
 
-## Contributing
-Contributions are welcome! Please submit a pull request if you have suggestions or improvements.
+- Python 3.8+
+- Web browser (for web interface)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## 🔧 Installation
 
-## Contact
-For further inquiries, please contact the repository owner: CostaJr007@github.com
+ + "`" + @"
+bash
+git clone https://github.com/CostaJr007/security-plus-simulado.git
+cd security-plus-simulado
+pip install -r requirements.txt
+ + "`" + @"
+
+## 💡 Usage
+
+### CLI Mode
+
+ + "`" + @"
+bash
+# Start practice test
+python quiz.py --mode practice
+
+# Exam simulation
+python quiz.py --mode exam --questions 90
+ + "`" + @"
+
+### Web Mode
+
+ + "`" + @"
+bash
+python app.py
+# Access http://localhost:5000
+ + "`" + @"
+
+## 📚 Topics Covered
+
+| Domain | Questions | Weight |
+|--------|-----------|--------|
+| Threats & Vulnerabilities | 150 | 24% |
+| Architecture & Design | 100 | 21% |
+| Implementation | 100 | 25% |
+| Operations & Incident Response | 80 | 16% |
+| Governance & Compliance | 70 | 14% |
+
+## 📄 License
+
+MIT License
+
+## 👤 Author
+
+**CostaJr007**
+
+## 🎓 Certification Info
+
+- **Exam Code:** SY0-601 / SY0-701
+- **Duration:** 90 minutes
+- **Questions:** Max 90
+- **Passing Score:** 750/900
+
+---
+⭐ Ace your Security+ exam! 🛡️
